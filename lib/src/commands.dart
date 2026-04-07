@@ -586,3 +586,7 @@ Future<void> viewConfig() async {
   final config = await loadConfig();
   print(config);
 }
+
+Future<void> printVersion() async {
+  print('ShellForge CLI version: $currentVersion');
+}

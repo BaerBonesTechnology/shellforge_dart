@@ -4,7 +4,7 @@ import 'package:path/path.dart' as p;
 
 import 'constants.dart';
 
-const String currentVersion = '0.0.41';
+const String currentVersion = 'ShellForge CLI v0.0.43';
 
 final Map<String, dynamic> defaultConfig = {
   ConfigKey.announcements: [

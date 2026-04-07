@@ -1,3 +1,9 @@
+## 0.0.43
+- Versioning call fixed.
+
+## 0.0.42
+- Fixes to pathing causing unexpected behavior
+
 ## 0.0.41
 
 - Initial Dart port of ShellForge
