@@ -20,7 +20,8 @@ void main(List<String> arguments) async {
   parser.addCommand('default');
   parser.addCommand('config');
   final newsCmd = parser.addCommand('news');
-  parser.addCommand('help');
+  parser.addCommand('version');
+
 
   runCmd.allowsAnything;
 
@@ -133,6 +134,9 @@ void main(List<String> arguments) async {
       break;
     case 'help':
       _printUsage();
+      break;
+    case 'version':
+      await printVersion();
       break;
     default:
       _printUsage();

@@ -1,6 +1,6 @@
 name: shellforge
 description: A workflow CLI to create, manage, and run reusable command sequences across Bash, Zsh, PowerShell, and CMD.
-version: 0.0.42
+version: 0.0.43
 homepage: https://github.com/BaerBonesTechnology/shellforge
 
 environment:
